@@ -13,7 +13,7 @@ npm run dev
 ```
 
 ## Enlaces
-
+video: https://youtu.be/9Io5gXWDupk
 Deploy: examen04-placeholder.netlify.app
 Repo: https://github.com/iam127/Examen04-SPA.git
 
