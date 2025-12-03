@@ -1,4 +1,4 @@
-PLACEHOLDER
+## PLACEHOLDER
 
 Proyecto final - SPA con React + Vite
 
