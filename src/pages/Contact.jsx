@@ -50,11 +50,9 @@ const Contact = () => {
     const newErrors = validate();
     
     if (Object.keys(newErrors).length === 0) {
-      // Éxito
       setSubmitted(true);
       setFormData({ name: '', email: '', message: '' });
       
-      // Ocultar mensaje después de 3 segundos
       setTimeout(() => setSubmitted(false), 3000);
     } else {
       setErrors(newErrors);

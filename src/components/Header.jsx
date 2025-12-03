@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-danger">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">
-           PlaceHolder
+           Posts SPA
         </Link>
         <button 
           className="navbar-toggler" 
@@ -22,10 +22,11 @@ const Header = () => {
               <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/entities">PlaceHolder</Link>
+              <Link className="nav-link" to="/entities">Posts</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact">Contact</Link>
+
             </li>
           </ul>
         </div>
